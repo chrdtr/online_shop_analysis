@@ -38,5 +38,41 @@ What is the customer sentiment based on their reviews? What value can we extract
    analysis, a lsit has been created. Most of the words seem to have a positive sentiment, but we are
    not able to infer anything from the output.
 
-   ![Screenshot 2023-06-29 at 13 32 59](https://github.com/chrdtr/online_shop_analysis/assets/124095561/b5f5f342-57bb-486f-9645-92fca1bd4d20)
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/b5f5f342-57bb-486f-9645-92fca1bd4d20"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="10%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/77373af2-43fb-43e1-9662-c0d467e8274c"> 
+</p>
+
+2. The distribution of the sentiment scores and the statistical measures show, that overall sentiment tends to be positive.
+   A **mean of 0.21** and a **median of 0.18** on a scale between -1 and 1 confirm the histogram. This implies, that customer
+   overall sentiment is slight positive.
+
+         count    1980.000000
+         mean        0.209914
+         std         0.263265
+         min        -1.000000
+         25%         0.033333
+         50%         0.177436
+         75%         0.360483
+         max         1.000000
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/2bb90329-73b7-4012-b8fd-03a49e792cdf"> 
+</p>
+
+3. As there are 200 affiliated products for the reviews provided, we can calculate the average review score for each product
+   and visualize it. **Top3 products** are 9119, 9080, 4619. **Flop3 products** are 9597, 1459, 2795. The distribution shows
+   a standard-shaped pattern, but we can identify some outliers with very high and low ratings.
+   
+<p align="center" width="100%">
+  <img width="40%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/bed63344-928b-42a1-af5a-91be3518e848">
+  <img width="42%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/329d11f6-8bc7-4534-be3b-74c5869fae58">
+</p>
+
+<p align="center" width="100%">
+    <img width="45%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/37e8a5be-58d1-4b7b-a69d-a66892d90a6f"> 
+</p>
 
