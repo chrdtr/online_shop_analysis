@@ -10,6 +10,24 @@ their strategy based on the findings of the analysis. The following questions we
 3. Are we able to identify customer groups based on their income and spending with the company?
 
 
+
+
+# 1. Sentiment analysis using TextBlob
+sa_customer_reviews.ipynb
+
+What is the customer sentiment based on their reviews? What value can we extract from the sentiment?
+
+- Data has been imported and cleaned: Redundant columns have been dropped, columns have been renamed
+  and data was checked for NaNs and duplicates. 20 review column duplicates have been deleted
+- Review column has been pre-processed: all punctuation has been reomved, all text was changed to lower case,
+  only alphanumerical characters have been kept and column text has been tokenized
+- For exploratory analysis, stopwords have been removed and a wordcloud was created
+  
+
+
+
+
+
 A dataset has been provided for analysis, containing different features which all have been measured during breast
 cancer scans. The features have been computed from digitised images of a fine needle aspiration (FNA) of a breast mass.
 These features are radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry and fractal dimension.
