@@ -76,3 +76,13 @@ What is the customer sentiment based on their reviews? What value can we extract
     <img width="45%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/37e8a5be-58d1-4b7b-a69d-a66892d90a6f"> 
 </p>
 
+4. To investigate possible correlations and decide on further analyses, categorical columns "gender" and "education" have been
+   transformed to numerical values. Analysis of correlations did not indicate any relationships between the variables, as they
+   were distributed closely around 0. Therefore it was decided not to deploy further models like regression.
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/chrdtr/online_shop_analysis/assets/124095561/375621bd-7090-4dec-b5a7-e5cd3cf0f5aa"> 
+</p>
+
+5. The 20 comments with the lowest and highest sentiment ratings have been displyed. The comments did confirm the respective
+   sentiments and did not show any surprises.
